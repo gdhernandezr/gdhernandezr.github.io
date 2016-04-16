@@ -16,7 +16,7 @@ padding-top:4px;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
+
 color:green;
 margin-left: 100px;
 font-size: 30px;
@@ -24,10 +24,10 @@ text-align: center;
 }
 
 h2{
-font-family: 'Indie Flower', cursive;
-color: black;
+
+color: #1636EB;
 margin-left: 10px;
-font-size: 20px;
+font-size: 30px;
 text-align: left; 
 }
 
@@ -173,7 +173,7 @@ width: 500px;
 
 
 nav{
-width: 1200px;
+width: 1130px;
 height: 50px;
 background: #3399ff;
 border-radius: 10px;
@@ -215,7 +215,7 @@ li{
     float: left;
     list-style-type: none;
     padding: 10px;
-    background: black;
+    background: #DD7F5D;
     margin: 3px;
     border-radius: 18px;
     box-shadow: 0 8 10px white inset; 
@@ -250,8 +250,8 @@ footer{
  
     height: 70px;
     margin-top:700px;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
+    --webkit-box-sizing:border-box;
+    --moz-box-sizing:border-box;
     box-sizing:border-box;
     background: #333;
     border-top: 2px solid #000;
@@ -260,7 +260,7 @@ footer{
 #footer3{
  
     height: 70px;
-    margin-top:800px;
+    margin-top:900px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
@@ -355,6 +355,16 @@ margin-top: 60px;
 
 }
 
+#frame1{
+    
+    margin:60px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
+    border-radius: red;
+}
 
 
     #img2{
